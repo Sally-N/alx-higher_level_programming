@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    for i in range(len(my_string)):
-        if i == 'c' or i == "C":
-            my_string.remove(i)
-        print(my_string)
+    string = my_string.translate({ord(i): None for i in 'Cc'})
+    return string
