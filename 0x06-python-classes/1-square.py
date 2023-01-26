@@ -3,6 +3,7 @@
 Module of a Square class
 '''
 
+
 class Square:
     '''A simple class that defines a square
     Attributes:
