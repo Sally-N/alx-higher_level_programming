@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+'''
+Module contains Rectangle Class
+'''
 
-class my_rectangle:
-   pass # Defines a retangle
+
+class Rectangle:
+    '''An empty rectangle class'''
+    pass
