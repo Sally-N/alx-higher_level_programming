@@ -33,7 +33,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        '''The setter of the width peoperty
+        '''The setter of the width property
         args:
             value (int): The value of the width property
         '''
