@@ -91,7 +91,7 @@ class Rectangle:
                 shape += '\n'
         return shape
 
-     def __repr__(self):
+    def __repr__(self):
          '''
          Returns string representation of the Rectangle
          '''
