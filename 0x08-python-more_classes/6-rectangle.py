@@ -5,7 +5,11 @@ Module contains Rectangle Class
 
 
 class Rectangle:
-    '''An empty rectangle class'''
+    """An empty rectangle class
+
+    Attributes:
+        number_of_instances (int): The number of Rectangle instances
+    """
 
     number_of_instances = 0
 
@@ -28,6 +32,8 @@ class Rectangle:
             raise ValueError('height must be >= 0')
         else:
             self.__height = height
+
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
