@@ -92,7 +92,7 @@ class Rectangle:
         return shape
 
     def __repr__(self):
-         '''
-         Returns string representation of the Rectangle
-         '''
-         return "Rectangle({}, {})".format(self.__width, self.__height)
+        '''Returns a string representation of the rectangle.'''
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
