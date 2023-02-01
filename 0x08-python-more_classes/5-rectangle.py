@@ -98,5 +98,5 @@ class Rectangle:
         return (rect)
 
     def __del__(self):
-        '''Print a message when an instance of an object is about to be deleted'''
+        '''Print a message for every deletion of a rectangle'''
         print("Bye rectangle...")
