@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Defines a text-indentation funtion"""
+"""Defines a text-indentation funtion."""
 
 
 def text_indentation(text):
     """splits a text into lines along "?", ":", "." followed by 2 new lines"""
-    if type(text) is not str:
+    if not isinstance(text, str):
         raise TypeError("text must be a string")
 
     for char in ".?:":
