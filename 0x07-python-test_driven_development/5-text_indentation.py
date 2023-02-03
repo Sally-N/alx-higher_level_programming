@@ -3,7 +3,13 @@
 
 
 def text_indentation(text):
-    """splits a text into lines along "?", ":", "." followed by 2 new lines"""
+    """
+    Prints a text with 2 new lines after specified characters `.`, `?` & `:`
+    Args:
+        text(str): text to be printed.
+    Raises:
+        TypeError: if text is not a string.
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
