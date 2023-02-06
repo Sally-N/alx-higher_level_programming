@@ -3,10 +3,10 @@
 
 
 class BaseGeometry:
-    """empty class"""
+    """BaseGeometry class"""
 
     def area(self):
-        """Empty area method"""
+        """area method"""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
