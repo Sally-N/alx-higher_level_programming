@@ -8,11 +8,11 @@ class Rectangle(BaseGeometry):
     """Rectangle class that inherits from BaseGeometry class"""
 
     def __init__(self, width, height):
-        '''
+        """Initializing constructor
         Args:
-            width (int): Width of rectangle.
-            height (int): Height of rectangle
-        '''
+            width (int): the width of the Rectangle.
+            height (int): the height of the new Rectangle.
+        """
         self.integer_validator("width", width)
             self.__width = width
         self.integer_validator("height", height)
