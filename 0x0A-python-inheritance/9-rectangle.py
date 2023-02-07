@@ -31,4 +31,5 @@ class Rectangle(BaseGeometry):
         '''
         Returns string representation of the Rectangle
         '''
+
         return "[{}] {}/{}".format(type(self).__name__, self.__width, self.__height)
