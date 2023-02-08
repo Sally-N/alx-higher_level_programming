@@ -12,10 +12,12 @@ class Student:
         last_name (str): The last name of the student
         age (int): The age of the student
     '''
+
     def __init__(self, first_name, last_name, age):
         '''
         Initializes the Student
         '''
+
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
@@ -24,4 +26,5 @@ class Student:
         '''
         Retrieves dictionary representation of an instance of Student
         '''
+
         return self.__dict__
