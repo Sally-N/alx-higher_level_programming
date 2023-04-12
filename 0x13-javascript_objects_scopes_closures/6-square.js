@@ -10,9 +10,9 @@ class Square extends square {
       } else {
         row += 'c';
       }
-      for (let i = 0; i < this.height; i++) {
-        console.log(row);
-      }
+    }
+    for (let i = 0; i < this.height; i++) {
+      console.log(row);
     }
   }
 }
