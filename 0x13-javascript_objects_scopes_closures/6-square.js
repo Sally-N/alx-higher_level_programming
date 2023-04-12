@@ -8,7 +8,7 @@ class Square extends square {
       if (!c) {
         row += 'X';
       } else {
-        row += 'c';
+        row += 'C';
       }
     }
     for (let i = 0; i < this.height; i++) {
