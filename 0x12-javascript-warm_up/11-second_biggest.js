@@ -9,6 +9,6 @@ if (process.argv.length === 2 || process.argv.length === 3) {
   for (let i = 2; i < process.argv.length; i++) {
     arr.push(parseInt[i]);
   }
-  arr.sort((a, b)=>b-a);
-  console.log(arr[1]);
+  const arrdesc = arr.sort().reverse();
+  console.log(arrdesc[1]);
 }
