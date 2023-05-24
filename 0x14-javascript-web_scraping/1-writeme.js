@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const fs = require('fs');
 
-fs.writeLine(path, process.argv[3], function (error) {
+fs.writeLine(process.argv[3], string, function (error) {
   if (error) throw error;
 });	
