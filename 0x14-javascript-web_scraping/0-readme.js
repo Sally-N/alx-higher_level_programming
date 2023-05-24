@@ -2,5 +2,6 @@
 const fs = require('fs');
 
 fs.readFile(process.argv[2], function (error, content) {
-  console.log(error || content.toString('utf8'));
+  if (error) throw error;	
+  console.log(content.toString('utf8'));
 });	
